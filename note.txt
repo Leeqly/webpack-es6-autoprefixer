@@ -1,0 +1,6 @@
+package.json配置
+"scripts": {"build": "webpack"} 通过 "npm run build" 来运行，等同于运行 "webpack"
+
+"webpack"：普通打包
+"webpack -p"：压缩打包
+"webpack -p -w"：压缩打包并监听
